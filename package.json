@@ -1,6 +1,6 @@
 {
   "name": "lomap",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Map reducer for JS object.",
   "license": "MIT",
   "repository": "egoist/lomap",
