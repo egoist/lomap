@@ -34,7 +34,7 @@ _map(obj, ['foo'], val => val + 1)
 
 #### source
 
-Type: `object`<br><br>
+Type: `object`<br>
 Required: `true`
 
 Source object.
