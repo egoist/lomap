@@ -41,8 +41,7 @@ Source object.
 
 #### selection
 
-Type: `array` `object`<br> 
-Default: `false`
+Type: `array` `object`
 
 An array of keys to select or key-value pair to set different to target object.
 
