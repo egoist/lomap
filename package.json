@@ -13,11 +13,13 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "jest && eslint *.js"
+    "test": "npm run build && jest && eslint *.js",
+    "build": "bili --format umd"
   },
   "files": [
-    "index.js"
+    "dist"
   ],
+  "main": "dist/lomap.js",
   "keywords": [
     "lodash",
     "helper",
@@ -26,9 +28,10 @@
     "map"
   ],
   "devDependencies": {
-    "jest-cli": "^15.1.1",
+    "bili": "^0.6.3",
     "eslint": "latest",
-    "eslint-config-egoist": "latest"
+    "eslint-config-egoist": "latest",
+    "jest-cli": "^15.1.1"
   },
   "jest": {
     "testEnvironment": "node"

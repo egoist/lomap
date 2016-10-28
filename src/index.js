@@ -1,10 +1,8 @@
-'use strict'
-
 const isType = (obj, type) => {
   return `[object ${type}]` === Object.prototype.toString.call(obj)
 }
 
-module.exports = function (source, selection, handler = val => val) {
+export default function (source, selection, handler = val => val) {
   if (typeof source !== 'object') {
     throw new TypeError('Expected source to be an object')
   }
