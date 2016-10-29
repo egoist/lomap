@@ -43,7 +43,7 @@ Source object.
 
 Type: `array` `object`
 
-An array of keys to select or key-value pair to set different to target object.
+An array of keys to select or key-value pair to set different name in target object.
 
 #### handler
 
