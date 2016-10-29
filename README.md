@@ -25,7 +25,7 @@ _map(obj, {foo2: 'foo'})
 
 // final move: pick and process with a handler function
 _map(obj, ['foo'], val => val + 1)
-// {foo: 123}
+// {foo: 124}
 ```
 
 ## API
